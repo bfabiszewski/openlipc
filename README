@@ -1,0 +1,2 @@
+Openlipc.h is just a header file for closed source liblipc used in Kindle Touch/Paperweight firmware. It was obtained by reverse engineering the library. Currently it doesn't contain all the functions. Just the ones used in lipc-set-prop, lipc-get-prop and lipc-send-event programs. 
+As a proof of concept I created substitutes for these programs. They are not meant to be full replacement for the originals, rather a reference for the functions usage.
